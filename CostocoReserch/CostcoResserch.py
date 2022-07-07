@@ -73,7 +73,7 @@ options.add_argument('--user-agent=' + user_agent[random.randrange(0, len(user_a
 #options.add_argument('--headless')
 driver = webdriver.Chromedriver = webdriver.Chrome(executable_path= var2 , chrome_options=options)
 
-URL ="https://www.costco.co.jp/login"
+URL ="https://www.asian-toybox.com/index.html?_ga=2.179608100.1478142140.1656929860-1145874533.1656929860"
 time.sleep(2)
 #URLを開く
 driver.get(URL)
